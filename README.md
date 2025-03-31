@@ -292,7 +292,7 @@ future2.get(); // this will return a status object that can be queried if put wa
 ```
 
 ### Metadata
-If you want to retrieve more metadata besides the value from the channel you can request this by specifying the type of metadata with the get call. For example if you also want to get the value modification/update time besides the value from the cannel use:
+If you want to retrieve more metadata besides the value from the channel you can request this by specifying the type of metadata with the get call. For example if you also want to get the value modification/update time besides the value from the channel use:
 
 ```
 channel.get(Timestamped.class)
